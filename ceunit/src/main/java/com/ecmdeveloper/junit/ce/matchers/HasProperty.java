@@ -6,7 +6,7 @@ package com.ecmdeveloper.junit.ce.matchers;
 import org.hamcrest.Description;
 import org.hamcrest.Factory;
 import org.hamcrest.Matcher;
-import org.junit.internal.matchers.TypeSafeMatcher;
+import org.hamcrest.TypeSafeMatcher;
 
 import com.filenet.api.core.EngineObject;
 
@@ -24,8 +24,7 @@ public class HasProperty extends TypeSafeMatcher<EngineObject>{
 
 	@Override
 	public void describeTo(Description description) {
-		description.appendText("an object with a property named '")
-				.appendText(propertyName).appendText("'");
+		description.appendText("an object with a property named '").appendText(propertyName).appendText("'");
 	}
 
 	@Override

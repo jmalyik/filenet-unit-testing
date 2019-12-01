@@ -5,9 +5,7 @@ package com.ecmdeveloper.ceunit;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
-import static org.junit.Assert.assertThat;
 
-import static org.hamcrest.CoreMatchers.anyOf;
 import com.filenet.api.constants.PropertyNames;
 import com.filenet.api.core.Connection;
 import com.filenet.api.core.EngineObject;

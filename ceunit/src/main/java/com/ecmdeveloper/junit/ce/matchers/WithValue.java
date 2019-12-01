@@ -7,8 +7,6 @@ import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 
-import com.filenet.api.core.EngineObject;
-
 /**
  * @author ricardo.belfor
  *

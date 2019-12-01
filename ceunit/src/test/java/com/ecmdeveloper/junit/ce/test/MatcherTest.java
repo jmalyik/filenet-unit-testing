@@ -3,19 +3,15 @@
  */
 package com.ecmdeveloper.junit.ce.test;
 
- import static org.junit.Assert.*;
+ import static com.ecmdeveloper.junit.ce.matchers.HasProperty.hasProperty;
+import static org.junit.Assert.assertThat;
 
 import org.junit.Rule;
 import org.junit.Test;
 
 import com.ecmdeveloper.ceunit.TestConnection;
 import com.ecmdeveloper.ceunit.annotations.TestFolder;
-import com.filenet.api.constants.PropertyNames;
 import com.filenet.api.core.Folder;
-import static com.ecmdeveloper.junit.ce.matchers.HasProperty.hasProperty;
-import static com.ecmdeveloper.junit.ce.matchers.HasPropertyWithValue.hasPropertyWithValue;
-
-import static org.hamcrest.CoreMatchers.*;
 
 /**
  * @author ricardo.belfor

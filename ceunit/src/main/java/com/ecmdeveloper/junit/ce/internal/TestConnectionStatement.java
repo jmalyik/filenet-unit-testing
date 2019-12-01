@@ -5,7 +5,6 @@ package com.ecmdeveloper.junit.ce.internal;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
-import java.text.MessageFormat;
 import java.util.HashSet;
 import java.util.Set;
 
